@@ -27,7 +27,7 @@ def computeScores():
     penalty = float(correction.pop(0).rstrip())
 
     print("***********************")
-    print("Question value = " + str(questionValue))
+    print("Question value = " + str(questionValue) + " " + str(4))
     print("penalty value = " + str(penalty))
     print("***********************")
 
